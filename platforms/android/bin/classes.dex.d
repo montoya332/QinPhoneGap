@@ -1,0 +1,21 @@
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes.dex : \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/phonegap/plugins/barcodescanner/BarcodeScanner.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/BuildConfig.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/QREvent.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$array.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$attr.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$color.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$dimen.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$drawable.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$id.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$layout.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$menu.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$raw.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$string.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R$xml.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/com/Project/QREvent/R.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/org/apache/cordova/camera/CameraLauncher.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/org/apache/cordova/camera/ExifHelper.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/classes/org/apache/cordova/camera/FileHelper.class \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/dexedLibs/classes-2e02e4d4b661bf563c272608bf16386d.jar \
+/Users/montoya/Documents/Senior_Project/QREvent/platforms/android/bin/dexedLibs/com.google.zxing.client.android.captureactivity-3434cf81731510fc659f75a91bb4b163.jar \

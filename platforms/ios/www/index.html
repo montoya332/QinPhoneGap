@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!DOCTYPE html>
+        <html>
+            <link href="http://code.jquery.com/mobile/1.0/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css">
+                <script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+                <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+                <head>
+                    <meta charset="utf-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <!-- Scaling to Phone    -->
+                            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                                <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+                                
+                                
+                                
+                                <!-- Jquery    -->
+                                <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.2.min.css" />
+                                <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+                                <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+                                <!--<link rel="stylesheet" href="css/styles.css" />-->
+                                
+                                <!-- Cordova/Barcode/Barcode_functions    -->
+                                <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+                                <script type="text/javascript" src="barcodescanner.js"></script>
+                                <script type="text/javascript" src="js/barcode_functions.js"></script>
+                                <!-- Bootstrap -->
+                                <link rel="stylesheet" href="dist/css/bootstrap.css" type="text/css" />
+                                <link rel="stylesheet" href="css/jumbotron.css" type="text/css" />
+                                <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+                                <script type="text/javascript" src="js/startScreen.js"></script>
+                                
+                                </head>
+                <body>
+                    <div data-role="page">
+                        <!------------------- Header --------------------------->
+                        <div data-role="header" id ="headerContent">
+                            <table width="100%" border="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="#panel" ><img src="img/bars.png"></a></td>
+                                    <td><h1>SJSU QREvent</h1></td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        
+                        <!------------------- Content --------------------------->
+                        <div data-role="content" id="mainContainer">
+                            <div >
+                                <b>SJSU Event Organizer</b>
+                                <BR/>
+                                <p>
+                                SJSU Event Organizer is a San Jose State University developed event organizer and check-in system.
+                                The application helps create events, manage check-ins and provide real-time event statistics
+                                including total guests and other meaningful data to help the event organizers provide
+                                a world-class experience to the San Jose State University events.
+                                </p>
+                                <div class="alert alert-info">
+                                    <hr>
+                                    <p><strong>Please select an Event from side Bar</strong></p>
+                                    <li><strong>Being scanning QR codes by pressing scan code button</strong></li>
+                                    <hr>
+                                </div>
+                                <img src='img/sampleTicket.png' width="90%"><BR/>
+                                    <p><center>
+                                        </img>
+                                </center></p>
+                            </div>
+                            
+                        </div>
+                        
+                        <footer>
+                            
+                            <p>&copy; 2013 -- San Jose State University</p>
+                        </footer>
+                        <!--------------------- Left Panel --------------------------->
+                        <div data-role="panel" data-theme="g" id="panel">
+                            <ul data-role="listview" data-theme="g" data-divider-theme="g">
+                                <li data-role="list-divider">
+                                    <table width="100%" border="0" cellspacing="0">
+                                        <tr>
+                                            <td><img src="img/user.png" width="32" height="22"></td>
+                                            <td><h5>Demo User</h5></td>
+                                        </tr>
+                                    </table>
+                                    
+                                    <hr>
+                                </li>
+                                
+                                
+                                <br><!----------------------------Events-------------------------------->
+                                <li data-role="list-divider" >
+                                    <h5>My Events</h5>
+                                </li>
+                                <li><a id="International Student Arrival Program" onclick ="upDateContent(this.id)" >AM - International Student Arrival Program </a></li>
+                                <li><a id="Graduate Orientation Program" onclick ="upDateContent(this.id)">PM - Graduate Orientation Program </a></li>
+                                
+                                <br><br>
+                                
+                                <!----------------------------Settings-------------------------------->
+                                <li data-role="list-divider">
+                                    <h5>Tools</h5>
+                                </li>
+                                <li><a id="helpButton" onclick ="upDatedesignTeamContent();" >Help</a></li>
+                                <li><a id="contactButton" onclick ="upDateAboutContent();">About</a></li>
+                                
+                                
+                            </ul>
+                        </div><!-- /panel -->
+                    </div><!-- page -->
+                    
+                    <!-- Load custom CSS before jQuery Mobile CSS! -->
+                    <style type="text/css">
+                        -----------------------------------------------------------------------------------------------------------*/
+                        .ui-bar-g{border:1px solid #666;background:#444;color:#ccc;font-weight:bold;text-shadow:0 -1px 1px #000;background-image:-webkit-gradient(linear,left top,left bottom,from(#555),to(#444));background-image:-webkit-linear-gradient(#555,#444);background-image:-moz-linear-gradient(#555,#444);background-image:-ms-linear-gradient(#555,#444);background-image:-o-linear-gradient(#555,#444);background-image:linear-gradient(#555,#444)}.ui-bar-g,.ui-bar-g input,.ui-bar-g select,.ui-bar-g textarea,.ui-bar-g button{font-family:Helvetica,Arial,sans-serif}.ui-bar-g .ui-link-inherit{color:#fff}.ui-bar-g a.ui-link{color:#7cc4e7;font-weight:bold}.ui-bar-g a.ui-link:visited{color:#2489ce}.ui-bar-g a.ui-link:hover{color:#2489ce}.ui-bar-g a.ui-link:active{color:#2489ce}.ui-body-g,.ui-overlay-g{border:1px solid #444;background:#333;color:#fff;text-shadow:0 1px 1px #111;font-weight:normal}.ui-overlay-g{background-image:none;border-width:0}.ui-body-g,.ui-body-g input,.ui-body-g select,.ui-body-g textarea,.ui-body-g button{font-family:Helvetica,Arial,sans-serif}.ui-body-g .ui-link-inherit{color:#fff}.ui-body-g .ui-link{color:#2489ce;font-weight:bold}.ui-body-g .ui-link:visited{color:#2489ce}.ui-body-g .ui-link:hover{color:#2489ce}.ui-body-g .ui-link:active{color:#2489ce}.ui-btn-up-g{border:1px solid #111;background:#333;font-weight:bold;color:#eee;text-shadow:0 1px 1px #111}.ui-btn-up-g:visited,.ui-btn-up-g a.ui-link-inherit{color:#eee}.ui-btn-hover-g{border:1px solid #000;background:#2e2e2e;font-weight:bold;color:#eee;text-shadow:0 1px 1px #111}.ui-btn-hover-g:visited,.ui-btn-hover-g:hover,.ui-btn-hover-g a.ui-link-inherit{color:#eee}.ui-btn-down-g{border:1px solid #000;background:#222;font-weight:bold;color:#eee;text-shadow:0 1px 1px #111}.ui-btn-down-g:visited,.ui-btn-down-g:hover,.ui-btn-down-g a.ui-link-inherit{color:#eee}.ui-btn-up-g,.ui-btn-hover-g,.ui-btn-down-g{font-family:Helvetica,Arial,sans-serif;text-decoration:none}.ui-btn-up-g .ui-btn-inner,.ui-btn-hover-g .ui-btn-inner,.ui-btn-down-g .ui-btn-inner{border-top:1px solid #fff;border-color:rgba(255,255,255,.15)}
+                        </style>
+                    
+                    
+                </body>
+                
+        </html>
+        
+        
